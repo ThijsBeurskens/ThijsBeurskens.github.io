@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', monospace;
+}
+
+p {
+    margin: 0 10 0 10;
+    padding: 10 0 10 0;
+    font-size: 15pt;
+    color: #FFFFFF;
+    font-family: "Computer Modern", sans-serif;
+}
+body {
+	background-color: #000000;
+}
+a {
+	color: #FFFFFF;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background: #000000;
+}
+
+.container {
+    width: 50%;
+    height: 90%;
+    background: #013220;
+    top: 10%;
+    margin-left: 25%;    
+}
+
+.container_logo {
+    position: relative;
+	text-align: right;
+	height:80%;
+	padding-top: 2%;
+	color: white;  
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.textsite {
+  position: absolute;
+  top: 10%;
+  margin-left: 10%;
+  color: #FFFFFF;
+  max-width: 45%;
+  text-align: left;
+  word-wrap: break-word;
+}
+
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #000000;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  height: 90%;
+}
+
+.bar {
+	height: 8%;
+}
